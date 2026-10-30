@@ -1,0 +1,118 @@
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    align-items: center;
+    padding-top: 150px;
+}
+
+body {
+    background-color: #282255;
+}
+
+.card {
+    background-color: #302b63;
+    width: 20%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    color: white;
+    box-shadow: 2px 4px 18px black;
+    overflow: hidden;
+    position: relative;
+}
+
+.card2 {
+    background-color: #302b63;
+    width: 20%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    color: white;
+    box-shadow: 2px 4px 18px black;
+    overflow: hidden;
+    position: relative;
+}
+
+h2,
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input {
+    padding: 5px;
+    width: 80%;
+    height: 25px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+input::placeholder {
+    padding-left: 10px;
+}
+
+button {
+    padding: 8px 65px;
+    border-radius: 7px;
+    border: none;
+    background-color: #573a8a;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.down {
+    background-color: white;
+    position: absolute;
+    width: 600px;
+    height: 200px;
+    top: 300px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.down2 {
+    background-color: white;
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    top: 50px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.laslik {
+    color: #573a8a;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.fislik {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: #573a8a;
+    padding-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.first{
+    padding: 5px;
+    width: 40%;
+    height: 25px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: rgba(158, 157, 154, 0.293);
+}
